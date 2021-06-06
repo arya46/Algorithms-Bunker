@@ -1,7 +1,7 @@
 # Attention 
 
 ## Overview
-This project contains the implementation of Luong's Attention from scratch in Python, along with a supportive IPYNB Notebook. The notebook contains plots and explanations to make the concept easy to understand.
+This project contains the implementation of [Luong et al](https://arxiv.org/pdf/1508.04025.pdf) Attention from scratch in Python, along with a supportive IPYNB Notebook. The notebook contains plots and explanations to make the concept easy to understand.
 
 ## What is Attention?
 
@@ -54,3 +54,8 @@ cv = attn_layer(dec_hidden_state, enc_hidden_states)
 ```
 
 The shape of cv is `TensorShape([2, 1, 10])`, ie the `AttentionLayer()` returns context vector of shape `(1, hidden_dim)` for all the rows, as expected.
+
+
+## Reference
+
+- Minh-Thang Luong, Hieu Pham, Christopher D. Manning, ["Effective Approaches to Attention-based Neural Machine Translation"](https://arxiv.org/abs/1508.04025) (2015)
