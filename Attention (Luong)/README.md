@@ -1,7 +1,7 @@
 # Attention 
 
 ## Overview
-This notebook contains the implementation of Luong's Attention from scratch in Python.
+This project contains the implementation of Luong's Attention from scratch in Python, along with a supportive IPYNB Notebook. The notebook contains plots and explanations to make the concept easy to understand.
 
 ## What is Attention?
 
